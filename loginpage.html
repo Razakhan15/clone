@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-deepBlue">
+    <nav class="relative w-[1080px] mx-auto flex items-center justify-between">
+      <a href="/" class="cursor-pointer py-7 pr-7">
+        <img src="./images/logo.svg" width="125px" height="30px" />
+      </a>
+
+      <button
+        class="py-3 px-4 font-mullish text-sm rounded-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500"
+      >
+        Sign-Up
+
+        <span
+          class="text-lightBlue300 transition-all duration-200 hover:text-lightBlue500"
+          >&#8594;</span
+        >
+      </button>
+    </nav>
+
+    <!-- LoginPage-->
+    <div class="py-10 relative flex flex-col items-center">
+      <div class="py-14 px-12 border rounded-md">
+        <img
+          src="./images/User-Avatar-PNG-Transparent-Image.png"
+          alt=""
+          class="content-centers px-3"
+          width="170px"
+          height="100px"
+        />
+        <h2 class="text-lightBlue300 text-2xl py-3 mx-9">User Login</h2>
+        <input
+          type="text"
+          name="Name"
+          placeholder="UserName"
+          class="rounded-md"
+          required
+        />
+        <br /><br />
+        <input
+          type="text"
+          name="Password"
+          placeholder="Password"
+          class="rounded-md"
+          required
+        />
+
+        <p class="text-lightBlue300 py-2">Forgert Password?</p>
+
+        <div class="relative flex flex-col">
+          <button
+            class="py-1 px-6 font-mullish text-sm rounded-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500"
+          >
+            LogIn
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
